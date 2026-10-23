@@ -11,7 +11,8 @@ A very small terminal tool developed by **RacX**.
 - **User Experience:** Includes ASCII art headers, screen clearing, and input validation to prevent crashes.
 
 ## 🛠️ How to Run
-```zsh
+```bash
+cd PeaX-OS
 chmod +x install.sh
 ./install.sh
 ```
