@@ -12,6 +12,7 @@ A very small terminal tool developed by **RacX**.
 
 ## 🛠️ How to Run
 ```bash
+git clone https://github.com/mtitla/PeaX-OS
 cd PeaX-OS
 chmod +x install.sh
 ./install.sh
