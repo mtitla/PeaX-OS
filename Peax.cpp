@@ -24,9 +24,8 @@ int main ()
         std::cout << "2.Number Calculator" << "\n";
         std::cout << "3.ASCII Calculator" << "\n";
         std::cout << "4.Charcter Encrypter" << "\n";
-        std::cout << "5.Phone Suggester" << "\n";
-        std::cout << "6.Guess the Distro Game" << "\n";
-        std::cout << "7.Exit" << "\n";
+        std::cout << "5.Guess the Distro Game" << "\n";
+        std::cout << "6.Exit" << "\n";
         std::cout << " " << "\n";
         std::cout << "==============================================" << "\n";
         std::cout << " " << "\n";
@@ -235,110 +234,6 @@ int main ()
             break;
         }
         case 5:
-        {
-            std::system("clear");
-            std::cout << R"(
- ____  _                                        
-|  _ \| |__   ___  _ __   ___                   
-| |_) | '_ \ / _ \| '_ \ / _ \                  
-|  __/| | | | (_) | | | |  __/                  
-|_|__ |_| |_|\___/|_| |_|\___|     _            
-/ ___| _   _  __ _  __ _  ___  ___| |_ ___ _ __ 
-\___ \| | | |/ _` |/ _` |/ _ \/ __| __/ _ \ '__|
- ___) | |_| | (_| | (_| |  __/\__ \ ||  __/ |   
-|____/ \__,_|\__, |\__, |\___||___/\__\___|_|   
-             |___/ |___/                        )" << "\n";
-            std::cout << " " << "\n";
-            std::cout << "===================================" << "\n";
-            std::cout << " " << "\n";
-            int budget;
-            std::cout << "Enter Your Budget in $: ";
-            std::cin >> budget;
-            std::string focus;
-            std::cout << "Are you focusing on the camera, performance, UI, or All ?: (cam/per/UI/All): ";
-            std::cin >> focus;
-            std::cout << " " << "\n";
-            std::cout << "============================================" << "\n";
-            std::cout << " " << "\n";
-
-            if (budget > 100 && budget <= 200 && (focus == "cam" || focus == "Cam" || focus == "CAM"))
-            {
-                std::cout << "Xiaomi Redmi Note 14 is the best cheap phone that focuses on the camera." << "\n";
-            }
-            else if (budget > 100 && budget <= 200 && (focus == "per" || focus == "Per" || focus == "PER"))
-            {
-                std::cout << "Realme 14X is the best cheap phone that focuses on Performance" << "\n";
-            }
-            else if (budget > 100 && budget <= 200 && (focus == "UI" || focus == "ui" || focus == "Ui" || focus == "uI"))
-            {
-                std::cout << "Samsung Galaxy A17 is the best cheap phone that focuses on UI" << "\n";
-            }
-            else if (budget > 100 && budget <= 200 && (focus == "All" || focus == "all" || focus == "ALL"))
-            {
-                std::cout << "Samsung Galaxy A17 is the best balanced cheap phone" << "\n";
-            }
-            else if (budget > 200 && budget <= 600 && (focus == "cam" || focus == "Cam" || focus == "CAM"))
-            {
-                std::cout << "Google Pixel 9a is the best mid-range phone that focuses on Camera" << "\n";
-            }
-            else if (budget > 200 && budget <= 600 && (focus == "per" || focus == "Per" || focus == "PER"))
-            {
-                std::cout << "Xiaomi POCO F7 is The best mid-range phone that focuses on Performance" << "\n";
-            }
-            else if (budget > 200 && budget <= 600 && (focus == "UI" || focus == "ui" || focus == "Ui" || focus == "uI"))
-            {
-                std::cout << "Google Pixel 9a is the best mid-range phone that focuses on UI" << "\n";
-            }
-            else if (budget > 200 && budget <= 600 && (focus == "All" || focus == "all" || focus == "ALL"))
-            {
-                std::cout << "Samsung Galaxy A56 is the best balanced mid-range phone" << "\n";
-            }
-            else if (budget > 600 && budget <= 950 && (focus == "cam" || focus == "Cam" || focus == "CAM"))
-            {
-                std::cout << "Xiaomi 15T Pro is the best Flagship-killer phone that focuses on Camera" << "\n";
-            }
-            else if (budget > 600 && budget <= 950 && (focus == "per" || focus == "Per" || focus == "PER"))
-            {
-                std::cout << "Xiaomi POCO F8 Ultra is the best Flagship-killer phone that focuses on Performance" << "\n";
-            }
-            else if (budget > 600 && budget <= 950 && (focus == "UI" || focus == "ui" || focus == "Ui" || focus == "uI"))
-            {
-                std::cout << "iPhone 17 is the best Flagship-killer phone that focuses on UI" << "\n";
-            }
-            else if (budget > 600 && budget <= 950 && (focus == "All" || focus == "all" || focus == "ALL"))
-            {
-                std::cout << "Samsung Galaxy S26 is the best balanced Flagship-killer phone" << "\n";
-            }
-            else if (budget > 950 && (focus == "cam" || focus == "Cam" || focus == "CAM"))
-            {
-                std::cout << "Xiaomi 17 Ultra is the best Flagship phone that focuses on Camera" << "\n";
-            }
-            else if (budget > 950 && (focus == "per" || focus == "Per" || focus == "PER"))
-            {
-                std::cout << "RedMagic 11 Pro is the best Flagship phone that focuses on Performance" << "\n";
-            }
-            else if (budget > 950 && (focus == "UI" || focus == "ui" || focus == "Ui" || focus == "uI"))
-            {
-                std::cout << "iPhone 17 Pro Max is the best Flagship phone that focuses on UI" << "\n";
-            }
-            else if (budget > 950 && (focus == "All" || focus == "all" || focus == "ALL"))
-            {
-                std::cout << "Samsung Galaxy S26 Ultra is the best balanced Flagship Phone" << "\n";
-            }
-            else if (budget < 100)
-            {
-                std::cout << "There is no excellent phone at this price" << "\n";
-            }
-            else if (focus != "cam" && focus != "Cam" && focus != "CAM" && focus != "per" && focus != "Per" && focus != "PER" && focus != "UI" && focus != "ui" && focus != "Ui" && focus != "uI" && focus != "All" && focus != "all" && focus != "ALL")
-            {
-                std::cout << "Invalid Choice !" << "\n";
-            }
-            std::cout << " " << "\n";
-            std::cout << "============================================" << "\n";
-            std::cout << " " << "\n";
-            break;
-        }
-        case 6:
         { 
         std::system("clear");
         std::cout << R"(
@@ -434,7 +329,7 @@ int main ()
         break;
         }            
         
-        case 7:
+        case 6:
         {
             std::cout << "Exiting PeaX OS... Goodbye!" << "\n";
             std::cout << "by Mtitla\n";
