@@ -18,6 +18,6 @@ chmod +x install.sh
 ./install.sh
 ```
 
-- by Mtitla
+- by Mtitla 2026
 
 
