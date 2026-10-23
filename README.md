@@ -12,8 +12,8 @@ A very small terminal tool developed by **RacX**.
 
 ## 🛠️ How to Run
 ```zsh
-g++ Peax.cpp -o peax
-./peax
+chmod +x install.sh
+./install.sh
 ```
 
 - by Mtitla
