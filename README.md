@@ -16,6 +16,7 @@ git clone https://github.com/mtitla/PeaX-OS
 cd PeaX-OS
 chmod +x install.sh
 ./install.sh
+Peax
 ```
 
 - by Mtitla
